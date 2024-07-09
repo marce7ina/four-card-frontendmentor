@@ -70,6 +70,10 @@ h1 {
   width: 90%;
   max-width: 1440px;
 }
+li {
+  display: flex;
+  flex-direction: column;
+}
 .card {
   list-style-type: none;
   width: 100%;
@@ -111,6 +115,7 @@ p {
   display: block;
   width: 4rem;
   margin-left: auto;
+  margin-top: auto;
 }
 .card-4 {
   grid-column: 2/3;
@@ -138,10 +143,7 @@ p {
   }
   .icon-image {
     width: 3.5rem;
-    margin-bottom: auto;
-  }
-  .image-1,
-  .image-3 {
+
     margin-top: auto;
   }
 }
